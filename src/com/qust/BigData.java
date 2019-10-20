@@ -5,8 +5,8 @@ import java.util.Arrays;
 //测试大数运算
 public class BigData {
     public static void main(String[] args) {
-           int num=1234567;
-           int factor=18;
+           int num=1234567123;
+           int factor=99;
         System.out.println(countBigData(num,factor));
     }
 
