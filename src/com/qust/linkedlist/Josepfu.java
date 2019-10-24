@@ -6,6 +6,8 @@ public class Josepfu {
         CircleSingleLinkedList circleSingleLinkedList = new CircleSingleLinkedList();
         circleSingleLinkedList.addBoy(5);// 加入5个小孩节点
         circleSingleLinkedList.showBoy();
+
+        circleSingleLinkedList.countBoy(1, 2, 5);
     }
 }
 class CircleSingleLinkedList{

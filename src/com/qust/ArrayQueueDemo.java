@@ -102,7 +102,7 @@ class ArrayQueue{
             return;
         }
         for (int i=head+1,j=1;i<=tail;i++,j++)
-            System.out.printf("第%d数据为:%d\n", j, arr[i]);
+            System.out.printf("第%d个数据为:%d\n", j, arr[i]);
     }
     // 显示队列的头数据， 注意不是取出数据
     public int headQueue() {
