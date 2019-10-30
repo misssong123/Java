@@ -17,7 +17,6 @@ public class ManySort {
         insertSort(arr);
         //printTime();
         System.out.println(Arrays.toString(arr));
-
     }
     public static void printTime(){
         Date date=new Date();
